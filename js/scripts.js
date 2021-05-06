@@ -1,7 +1,7 @@
 function abrirNav() {
 
 
-    var x = document.getElementById("navigation");
+    var botao= document.getElementById("navigation");
 
     if (botao.className === "navigation") {
        botao.className += " menujs";
